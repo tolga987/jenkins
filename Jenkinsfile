@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     // Docker registry kimlik bilgilerini kullanarak
-                    docker.withRegistry('https://registry.hub.docker.com', 'docker-credentials-id') {
+                    docker.withRegistry('', 'docker-credentials-id') {
                         sh "docker push ${env.IMAGE_NAME}"
                     }
                 }
