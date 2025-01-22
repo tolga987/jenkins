@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Docker Hub repo adı
-        DOCKER_REPO = "egitimicerigim/blog"
+        DOCKER_REPO = "tolgasavas/blog"
     }
 
     stages {
